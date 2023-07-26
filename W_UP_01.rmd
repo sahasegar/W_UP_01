@@ -1,7 +1,7 @@
 ---
 title: "W_UP_01"
-author: "your name here"
-date: "fall 2020"
+author: "Sakana Uthayasegar"
+date: "Summer 2023"
 output: html_document
 ---
 
@@ -20,6 +20,8 @@ mydata <- read.csv(file="pushups.csv")
 # Introduction
 
 <!--In this section you explain what you are trying to show. Where did the data come from? What is the research or other question you are trying to answer?!-->
+
+In this research, we are establishing the average number of push ups performed by skill players compared to line players. Is there a statistical difference in the average number of pushup between the two different players. 
 
 Create an Rstudio project in your shared space on rstudio.cloud.  Using the dataset called pushups from the tigerstats package in R; answer the question posed by this null and alternate hypothesis in an html markdown document.
 
