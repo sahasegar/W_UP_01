@@ -33,6 +33,8 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 
 <!--Decide on your methods: use "variable analysis" or other appropriate descriptors. Make sure to choose at least one graphical method and at least one numerical method.!-->
 
+The Numerical~Categorical method is used to figure this question out. The Numerical represents the average number of push ups and categorical represents the different positions. A box plot will be used to analyze the data. A numerical summary will be used to determine the numerical descriptive results. A t-test will be used. 
+
 # Results
 
 <!--Divide this section into two sub-sections: One for your descriptive results and one for your inferential results.!-->
@@ -43,9 +45,19 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 
 <!--Graphical results here. Make sure to show your code. Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too. Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+boxplot(pushups~position,data=mydata)
+```
+The box plot shows skill players' average amount of pushups to be 60 push up, and the line position performed less than 20 push ups in the time span of two minutes. 
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+favstats(pushups~position,data=mydata)
+```
+
 
 ## Inferential Results
 
